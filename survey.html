@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Survey Page</title>
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+   <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body id = "surveyBody">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">The Survey Company</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href ="index.html">Home</a></li>
+            <li><a href ="about.html">About</a></li>
+            <li><a href ="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"> Logout  <i class="fas fa-sign-out-alt" aria-hidden="true"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class = "center">
+    <h2>What type of survey do you want to create?</h2>
+    <p><em><strong>Why?</strong> This gives us an idea of what types of surveys you may want to create </br>
+      so we can get you started easily.</em></p>
+  </div>
+
+  <nav id = "surveyQuestion" class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Questions Type <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Multiple Choices</a></li>
+              <li><a href="#">Checkboxes</a></li>
+              <li><a href="#">Star Rating</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Matrix or Rating Scale</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Ranking or Reviews</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your question goes here">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
+
+      <p>Title</p>
+      <input type="text" class="form-control" placeholder="What title do you want?">
+      <p></p>
+    <p>Description</p>
+    <textarea class="form-control" rows="3" placeholder="Enter your Description for the survey"></textarea>
+    <p></p>
+    <p>Begin Date</p>
+    <input type="date" class="form-control" >
+    <p></p>
+    <p>End Date</p>
+    <input type="date" class="form-control">
+    <p></p>
+    <p>Pool Type</p>
+    <select class="form-control">
+      <option>Pool Type 1</option>
+      <option>Pool Type 2</option>
+      <option>Pool Type 3</option>
+      <option>Pool Type 4</option>
+      <option>Pool Type 5</option>
+    </select></br>
+
+    <p style="font-weight: bold">Advance Option</p>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> Is Sorted
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox2" value="option2"> Is Survey
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox3" value="option3"> Is Publication Public
+    </label>
+    <p></p>
+    <p>Ballot URL</p>
+    <input type="text" class="form-control" >
+    <p></p>
+    <p>Login Top Text</p>
+    <input type="text" class="form-control" >
+    <p></p>
+    <p>Login Bottom Text</p>
+    <input type="text" class="form-control">
+
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <script type="text/javascript"
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

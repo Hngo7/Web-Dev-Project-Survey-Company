@@ -1,0 +1,126 @@
+body {
+  background-image: url(http://www.tokkoro.com/picsup/3003402-apple_desk_macbook_macbook-pro_man_notebook_notes_office_people_space_workplace_workspace.jpg);
+  background-size:cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+  padding-bottom: 25px;
+}
+html {
+  height:100%;
+}
+
+#content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.1);
+}
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+form {
+  width: 40%;
+  margin: auto;
+}
+
+.center {
+    margin: 50px auto 10px 2%;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.center p {
+  font-weight: normal
+}
+
+.container-fluid {
+  padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#surveyQuestion {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#surveyQuestion p{
+  color: #777;
+}
+.checkbox-inline {
+  color: #777;
+}
+
+#surveyBody {
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-group {
+  color: #777;
+}
+#electionBody {
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#aboutBody {
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.aboutInformation {
+  margin: 30px 20%;
+
+}
+#col1 {
+    display: inline-block;
+    width:25%;
+}
+
+#col2 {
+    display: inline-block;
+    width:75%;
+
+}
+
+.img-rounded {
+    float:left;
+    height: 115px;
+    width: 115px;
+}
+.img-circle {
+  float: left;
+  
+  height: auto;
+  margin-left: 4%;
+  margin-right:4%;
+  margin-top: 15px;
+}
+
+
+#contactBody {
+  background-image: url("http://sawyer-wealth.com/wp-content/uploads/2016/10/photo-By-Dustin-Lee-e1479779746228.jpg");
+}
